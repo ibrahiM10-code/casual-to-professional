@@ -1,6 +1,5 @@
 from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.output_parsers import StrOutputParser
 from dotenv import load_dotenv
 import os
 
